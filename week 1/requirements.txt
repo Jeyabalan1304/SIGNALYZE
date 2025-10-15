@@ -1,0 +1,13 @@
+pandas
+numpy
+transformers
+torch
+matplotlib
+seaborn
+praw
+google-api-python-client
+scikit-learn
+requests
+tqdm
+python-dotenv
+regex

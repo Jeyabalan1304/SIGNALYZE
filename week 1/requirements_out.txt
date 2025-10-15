@@ -1,0 +1,11 @@
+pandas
+numpy
+requests
+praw
+python-dotenv
+nltk
+vaderSentiment
+transformers
+torch
+sentencepiece
+langdetect
