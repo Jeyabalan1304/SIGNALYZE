@@ -14,7 +14,7 @@ Signalyze transforms raw customer feedback into product insights using OpenAI.
 5. Create `.env` file based on `.env.example`.
 6. Run the server: `python main.py`
 
-## Frontend Setup
+# Frontend Setup
 1. `cd frontend`
 2. Install dependencies: `npm install --legacy-peer-deps`
 3. Run the development server: `npm run dev`
