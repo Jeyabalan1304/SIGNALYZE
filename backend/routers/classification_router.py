@@ -107,7 +107,6 @@ def get_company_insights(company_name: str, db: Session = Depends(get_db)):
     """
     Returns classified data filtered by company name joining with RawFeedback table.
     """
-    # Note: company_name logic depends on how you store it in JSON source_metadata
     results = db.query(ClassifiedInsight)\
         .join(PreprocessedFeedback, ClassifiedInsight.preprocessed_id == PreprocessedFeedback.id)\
         .join(RawFeedback, PreprocessedFeedback.raw_id == RawFeedback.id)\
